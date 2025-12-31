@@ -1,16 +1,18 @@
-# Compiled class file
+# 忽略所有文件
+*
+
+# 允许以下文件和目录
+!src/
+!src/**/*
+!WebContent/
+!WebContent/**/*
+!README.md
+!shoppingdb.sql
+
+# 忽略特定文件类型
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,65 +20,28 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# IDE
-.idea/
-.vscode/
 *.iml
 *.swp
 *.swo
 *~
-
-# OS files
 Thumbs.db
 .DS_Store
 
-# Local build output
+# 忽略IDE配置
+.idea/
+.vscode/
+
+# 忽略本地构建输出
 build/
 target/
 
-# Database files
-*.sql
-!shoppingdb.sql
-!add_products.sql
-!fix_product_data.sql
-!fix_product_data_utf8.sql
-
-# Properties files
-*.properties
-
-# Scripts
+# 忽略脚本文件
 *.ps1
 *.pyc
 
-# Temp files
+# 忽略临时文件
 *.tmp
 *.temp
 
-# Web server logs
+# 忽略日志目录
 logs/
-
-# Local jar files
-*.jar
-!WebContent/WEB-INF/lib/
-
-# Backup files
-*.bak
-*.backup
-
-# RemoveBOM generated files
-*.class
-RemoveBOM.class
-CheckDatabase.class
-CheckDatabaseConsistency.class
-CheckProductImages.class
-CopyImagesFromDB.class
-ExportDatabase.class
-QueryProductCategories.class
-RemoveBOMManual.class
-TestFileNameGeneration.class
-UpdateExistingImagePaths.class
-UpdateProductCategories.class
