@@ -9,45 +9,6 @@
 !README.md
 !shoppingdb.sql
 
-# 忽略特定文件类型
-*.class
-*.log
-*.ctxt
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-*.iml
-*.swp
-*.swo
-*~
-Thumbs.db
-.DS_Store
-
-# 忽略IDE配置
-.idea/
-.vscode/
-
-# 忽略本地构建输出
-build/
-target/
-
-# 忽略脚本文件
-*.ps1
-*.pyc
-
-# 忽略临时文件
-*.tmp
-*.temp
-
-# 忽略日志目录
-logs/
-
-# 忽略编译目录
-WebContent/WEB-INF/classes/
-
-# 忽略配置文件
-*.properties
+# 忽略特定文件和目录
+# 确保不会添加其他文件
+.gitignore
