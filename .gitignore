@@ -45,3 +45,9 @@ target/
 
 # 忽略日志目录
 logs/
+
+# 忽略编译目录
+WebContent/WEB-INF/classes/
+
+# 忽略配置文件
+*.properties
